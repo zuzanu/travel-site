@@ -6,6 +6,16 @@
     padding-left: 94px;
   }
 
+  &--center {
+    p {
+      text-align: center;
+      
+      @mixin atSmall {
+        text-align: left;
+      }
+    }
+  }
+
   &__icon {
     display: block;
     margin: 0 auto;
